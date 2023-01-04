@@ -20,6 +20,7 @@ class Filecopy{
 					System.out.print((char)c);
 					if(c=='.')
 					{
+						n=n+1;
 						System.out.print("\n"+n+" ");
 					}
 				} while(c!--1);
