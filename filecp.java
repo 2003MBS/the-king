@@ -9,16 +9,16 @@ class Filecopy{
 			f1= new FileInputStream("test1.txt");
 			f2= new FileOutputStream("cp.txt");
 			int c;
-			int n;
+			int n=1;
 			System.out.print(n+" ");
 			do
 			{
 				c=f1.read();
-				if(cl-1)
+				if(c!=1)
 				{
 					f2.write((char)c);
 					System.out.print((char)c);
-					if(c1=='.')
+					if(c=='.')
 					{
 						System.out.print("\n"+n+" ");
 					}
