@@ -18,7 +18,7 @@ class Filecopy{
 				{
 					f2.write((char)c);
 					System.out.print((char)c);
-					if(c1!='.')
+					if(c1=='.')
 					{
 						System.out.print("\n"+n+" ");
 					}
